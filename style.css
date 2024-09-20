@@ -1,6 +1,6 @@
 /* CSS for the background image */
 body {
-    background-image: url('/IBM/travelRecommendation/\ indexBackgroundIBM.jpg');
+    background-image: url('./\ indexBackgroundIBM.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 
 /* Other CSS rules */
 nav {
-    background-color: rgba(240, 240, 240, 0.8); /* Semi-transparent background */
+    background-color: rgba(240, 240, 240, 0.9); /* Semi-transparent background */
     padding: 20px;
     display: flex;
     align-items: center;
