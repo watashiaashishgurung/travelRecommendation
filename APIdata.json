@@ -6,12 +6,12 @@
             "cities": [
                 {
                     "name": "Sydney, Australia",
-                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/%20indexBackgroundIBM.jpg?raw=true",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/sydney.jpg?raw=true",
                     "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
                 },
                 {
                     "name": "Melbourne, Australia",
-                    "imageUrl": "https://example.com/images/melbourne.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/melbourne.jpg?raw=true",
                     "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
                 }
             ]
@@ -22,12 +22,12 @@
             "cities": [
                 {
                     "name": "Tokyo, Japan",
-                    "imageUrl": "https://example.com/images/tokyo.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/tokyo.jpg?raw=true",
                     "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
                 },
                 {
                     "name": "Kyoto, Japan",
-                    "imageUrl": "https://example.com/images/kyoto.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/kyoto.jpg?raw=true",
                     "description": "Known for its historic temples, gardens, and traditional tea houses."
                 }
             ]
@@ -38,12 +38,12 @@
             "cities": [
                 {
                     "name": "Bangkok, Thailand",
-                    "imageUrl": "https://example.com/images/bangkok.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/bangkok.jpg?raw=true",
                     "description": "A vibrant city known for its street life, cultural landmarks, and temples like Wat Arun and Wat Pho."
                 },
                 {
                     "name": "Phuket, Thailand",
-                    "imageUrl": "https://example.com/images/phuket.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/phuket.jpg?raw=true",
                     "description": "A popular beach destination known for its stunning beaches, vibrant nightlife, and water activities."
                 }
             ]
@@ -54,12 +54,12 @@
             "cities": [
                 {
                     "name": "Athens, Greece",
-                    "imageUrl": "https://example.com/images/athens.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/athens.jpg?raw=true",
                     "description": "The historic capital known for its ancient landmarks like the Acropolis and Parthenon."
                 },
                 {
                     "name": "Santorini, Greece",
-                    "imageUrl": "https://example.com/images/santorini.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/santorini.jpg?raw=true",
                     "description": "A picturesque island famous for its stunning sunsets, white-washed buildings, and beautiful beaches."
                 }
             ]
@@ -70,12 +70,12 @@
             "cities": [
                 {
                     "name": "Glacier National Park, USA",
-                    "imageUrl": "https://example.com/images/glacier_national_park.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/glaciernationalpark.jpg?raw=true",
                     "description": "Known for its stunning landscapes, diverse wildlife, and beautiful hiking trails."
                 },
                 {
                     "name": "Hawaiian Islands, USA",
-                    "imageUrl": "https://example.com/images/hawaiian_islands.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/hawai.jpg?raw=true",
                     "description": "A tropical paradise known for its beautiful beaches, volcanic landscapes, and rich culture."
                 }
             ]
@@ -119,7 +119,7 @@
             "cities": [
                 {
                     "name": "Maldives",
-                    "imageUrl": "https://example.com/images/maldives.jpg",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/images/maldieves.jpg?raw=true",
                     "description": "A tropical paradise known for its crystal-clear waters, luxurious resorts, and vibrant marine life."
                 }
             ]
