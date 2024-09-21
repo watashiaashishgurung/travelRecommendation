@@ -1,6 +1,6 @@
 /* CSS for the background image */
 body {
-    background-image: url('images/ indexBackgroundIBM.jpg');
+    background-image: url('images/\ indexBackgroundIBM.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
