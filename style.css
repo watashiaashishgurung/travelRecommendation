@@ -4,10 +4,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
+    display: flex;
 }
 
 /* Other CSS rules */
@@ -45,46 +47,113 @@ nav a {
 }
 
 nav a:hover {
-    color: #007bff;
+    color: azure;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for the search bar */
 .search-bar {
+    --pedding: 12px;
+    width: max-content;
     display: flex;
     align-items: center;
+    border-radius: 6px;
+    background-color: #f6f6f6;
     gap: 10px;
+    padding: var(--pedding);
+    transition: background-color 0.25s;
+}
+.search-bar:focus-within {
+    background-color: #f1f1f1;
 }
 
 .search-bar input[type="text"] {
-    padding: 5px;
+    font-size: 16px;
+    font-family: 'Plex, sans-serif';
+    color: #333;
+    margin-left: var(--pedding);
+    outline: none;
+    border: none;
+    background-color: transparent;
     width: 200px;
 }
 
+.search-bar input::placeholder 
+.search-icon {
+    color: rgba(0, 0, 0, 0.5);
+}
 .search-bar button {
     padding: 5px 10px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: f6f6f6;
+    color: rgba(0, 0, 0, 0.5);
     border: none;
     cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: #45a049;
+    background-color: azure;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for the results container */
 
 #results {
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
 }
 
 .city {
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* More transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .city img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS for paragraph */
 p {
     line-height: 1.6;
@@ -115,21 +184,29 @@ p {
     margin-bottom: 10px;
 }
 
-/* CSS for the addition article */
-#addition {
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+/* CSS for the articles container */
+.articles-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */    gap: 20px;
     padding: 20px;
-    margin: 20px;
+
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+/* CSS for the intro article */
+#intro, #addition {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
-    color: rgb(63, 62, 62);
-    width: 600px;
-    height: 200px;
-    font-family: 'plex sans', sans-serif;;
+    color: #333;
+    flex: 1; /* Allow articles to grow and shrink equally */
+    max-width: 45%; /* Ensure articles don't get too wide */
 }
 
-#addition h2 {
+#intro h2, #addition h2 {
     margin-top: 0;
     font-size: 24px;
     color: #4CAF50;
@@ -138,13 +215,4 @@ p {
 #addition p {
     line-height: 1.6;
     margin-bottom: 10px;
-}
-
-#addition ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#addition ul li {
-    margin-bottom: 5px;
 }
