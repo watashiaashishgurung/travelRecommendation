@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -95,7 +96,9 @@ p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgb(11, 10, 10);
+    max-width: 45%; /* Ensure articles don't get too wide */;
+    
 }
 
 #aboutus h2 {
@@ -119,6 +122,8 @@ p {
     font-family: Arial, sans-serif;
     color: rgb(63, 62, 62);
     font-family: 'plex sans', sans-serif;;
+    max-width: 45%; /* Ensure articles don't get too wide */;
+    
 }
 
 #ourteam h2 {

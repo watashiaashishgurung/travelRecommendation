@@ -1,81 +1,261 @@
 {
     "countries": [
-      {
-        "id": 1,
-        "name": "Australia",
-        "cities": [
-          {
-            "name": "Sydney, Australia",
-            "imageUrl": "enter_your_image_for_sydney.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-          },
-          {
-            "name": "Melbourne, Australia",
-            "imageUrl": "enter_your_image_for_melbourne.jpg",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Japan",
-        "cities": [
-          {
-            "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-          },
-          {
-            "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Brazil",
-        "cities": [
-          {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-          },
-          {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-          }
-        ]
-      }
+        {
+            "id": 1,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "imageUrl": "https://github.com/watashiaashishgurung/travelRecommendation/blob/main/%20indexBackgroundIBM.jpg?raw=true",
+                    "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "imageUrl": "https://example.com/images/melbourne.jpg",
+                    "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "imageUrl": "https://example.com/images/tokyo.jpg",
+                    "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "imageUrl": "https://example.com/images/kyoto.jpg",
+                    "description": "Known for its historic temples, gardens, and traditional tea houses."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Thailand",
+            "cities": [
+                {
+                    "name": "Bangkok, Thailand",
+                    "imageUrl": "https://example.com/images/bangkok.jpg",
+                    "description": "A vibrant city known for its street life, cultural landmarks, and temples like Wat Arun and Wat Pho."
+                },
+                {
+                    "name": "Phuket, Thailand",
+                    "imageUrl": "https://example.com/images/phuket.jpg",
+                    "description": "A popular beach destination known for its stunning beaches, vibrant nightlife, and water activities."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Greece",
+            "cities": [
+                {
+                    "name": "Athens, Greece",
+                    "imageUrl": "https://example.com/images/athens.jpg",
+                    "description": "The historic capital known for its ancient landmarks like the Acropolis and Parthenon."
+                },
+                {
+                    "name": "Santorini, Greece",
+                    "imageUrl": "https://example.com/images/santorini.jpg",
+                    "description": "A picturesque island famous for its stunning sunsets, white-washed buildings, and beautiful beaches."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "USA",
+            "cities": [
+                {
+                    "name": "Glacier National Park, USA",
+                    "imageUrl": "https://example.com/images/glacier_national_park.jpg",
+                    "description": "Known for its stunning landscapes, diverse wildlife, and beautiful hiking trails."
+                },
+                {
+                    "name": "Hawaiian Islands, USA",
+                    "imageUrl": "https://example.com/images/hawaiian_islands.jpg",
+                    "description": "A tropical paradise known for its beautiful beaches, volcanic landscapes, and rich culture."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "UK",
+            "cities": [
+                {
+                    "name": "London, UK",
+                    "imageUrl": "https://example.com/images/london.jpg",
+                    "description": "A historic city known for its iconic landmarks like the Big Ben, Tower of London, and Buckingham Palace."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "France",
+            "cities": [
+                {
+                    "name": "Paris, France",
+                    "imageUrl": "https://example.com/images/paris.jpg",
+                    "description": "The romantic capital known for its iconic Eiffel Tower, art museums, and charming streets."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Indonesia",
+            "cities": [
+                {
+                    "name": "Bali, Indonesia",
+                    "imageUrl": "https://example.com/images/bali.jpg",
+                    "description": "A tropical paradise known for its beautiful beaches, vibrant culture, and stunning temples."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Maldives",
+            "cities": [
+                {
+                    "name": "Maldives",
+                    "imageUrl": "https://example.com/images/maldives.jpg",
+                    "description": "A tropical paradise known for its crystal-clear waters, luxurious resorts, and vibrant marine life."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Spain",
+            "cities": [
+                {
+                    "name": "Barcelona, Spain",
+                    "imageUrl": "https://example.com/images/barcelona.jpg",
+                    "description": "A vibrant city known for its unique architecture, beautiful beaches, and rich culture."
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Canada",
+            "cities": [
+                {
+                    "name": "Banff, Canada",
+                    "imageUrl": "https://example.com/images/banff.jpg",
+                    "description": "Known for its stunning mountain landscapes, beautiful lakes, and outdoor activities."
+                },
+                {
+                    "name": "Vancouver, Canada",
+                    "imageUrl": "https://example.com/images/vancouver.jpg",
+                    "description": "A vibrant city known for its beautiful natural surroundings, diverse culture, and outdoor activities."
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Italy",
+            "cities": [
+                {
+                    "name": "Rome, Italy",
+                    "imageUrl": "https://example.com/images/rome.jpg",
+                    "description": "A historic city known for its ancient landmarks like the Colosseum, Roman Forum, and Vatican City."
+                },
+                {
+                    "name": "Amalfi Coast, Italy",
+                    "imageUrl": "https://example.com/images/amalfi_coast.jpg",
+                    "description": "A stunning coastal region known for its picturesque villages, beautiful beaches, and scenic views."
+                },
+                {
+                    "name": "Tuscany, Italy",
+                    "imageUrl": "https://example.com/images/tuscany.jpg",
+                    "description": "A beautiful region known for its rolling hills, vineyards, and charming villages."
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Peru",
+            "cities": [
+                {
+                    "name": "Machu Picchu, Peru",
+                    "imageUrl": "https://example.com/images/machu_picchu.jpg",
+                    "description": "An ancient Incan city known for its stunning ruins, breathtaking views, and historical significance."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "New Zealand",
+            "cities": [
+                {
+                    "name": "New Zealand",
+                    "imageUrl": "https://example.com/images/new_zealand.jpg",
+                    "description": "Known for its stunning landscapes, outdoor adventures, and rich Maori culture."
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Croatia",
+            "cities": [
+                {
+                    "name": "Dubrovnik, Croatia",
+                    "imageUrl": "https://example.com/images/dubrovnik.jpg",
+                    "description": "A historic city known for its stunning medieval walls, beautiful coastline, and rich history."
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Austria",
+            "cities": [
+                {
+                    "name": "Vienna, Austria",
+                    "imageUrl": "https://example.com/images/vienna.jpg",
+                    "description": "A historic city known for its beautiful architecture, rich cultural heritage, and classical music."
+                }
+            ]
+        }
     ],
-    "temples": [
-      {
-        "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "enter_your_image_for_angkor-wat.jpg",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
-      },
-      {
-        "id": 2,
-        "name": "Taj Mahal, India",
-        "imageUrl": "enter_your_image_for_taj-mahal.jpg",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
-      }
+    "beachRecommendations": [
+        {
+            "name": "Bondi Beach, Australia",
+            "imageUrl": "https://example.com/images/bondi_beach.jpg",
+            "description": "A world-famous beach known for its golden sands, surfing culture, and vibrant atmosphere."
+        },
+        {
+            "name": "Waikiki Beach, Hawaii",
+            "imageUrl": "https://example.com/images/waikiki_beach.jpg",
+            "description": "A popular beach destination known for its stunning views, surfing, and vibrant nightlife."
+        }
     ],
-    "beaches": [
-      {
-        "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "enter_your_image_for_bora-bora.jpg",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
-      },
-      {
-        "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "enter_your_image_for_copacabana.jpg",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
-      }
+    "templeRecommendations": [
+        {
+            "name": "Angkor Wat, Cambodia",
+            "imageUrl": "https://example.com/images/angkor_wat.jpg",
+            "description": "A UNESCO World Heritage site and the largest religious monument in the world, known for its stunning architecture and historical significance."
+        },
+        {
+            "name": "Borobudur, Indonesia",
+            "imageUrl": "https://example.com/images/borobudur.jpg",
+            "description": "A 9th-century Mahayana Buddhist temple and a UNESCO World Heritage site, known for its intricate carvings and stunning architecture."
+        }
+    ],
+    "otherRecommendations": [
+        {
+            "name": "U.S. National Parks",
+            "imageUrl": "https://example.com/images/us_national_parks.jpg",
+            "description": "A collection of protected areas known for their stunning natural beauty, diverse wildlife, and outdoor activities."
+        },
+        {
+            "name": "Cruises to Alaska",
+            "imageUrl": "https://example.com/images/cruises_to_alaska.jpg",
+            "description": "A popular travel option known for its breathtaking views, wildlife sightings, and unique experiences."
+        },
+        {
+            "name": "Maui, Hawaii",
+            "imageUrl": "https://example.com/images/maui.jpg",
+            "description": "A beautiful island known for its stunning beaches, lush landscapes, and outdoor activities."
+        }
     ]
-  }
-  
+}
