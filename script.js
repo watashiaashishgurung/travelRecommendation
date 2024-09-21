@@ -9,7 +9,10 @@ document.getElementById('searchButton').addEventListener('click', function() {
             let found = false;
             data.countries.forEach(country => {
                 country.cities.forEach(city => {
-                    if (city.name.toLowerCase().includes(query)) {
+                    // Check if the city name or keywords "beach" or "temple" are in the query
+                    if (city.name.toLowerCase().includes(query) || 
+                        (query.includes('beach') && city.description.toLowerCase().includes('beach')) || 
+                        (query.includes('temple') && city.description.toLowerCase().includes('temple'))) {
                         found = true;
                         resultsDiv.innerHTML += `
                             <div class="city">
