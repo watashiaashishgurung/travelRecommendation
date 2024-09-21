@@ -143,3 +143,67 @@ p {
 #addition ul li {
     margin-bottom: 5px;
 }
+
+
+
+
+/* CSS for the contact form */
+.contact {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin: 20px auto; /* Center the form */
+}
+
+.contact h2 {
+margin-top: 0;
+font-size: 24px;
+color: #4CAF50;
+text-align: center;
+}
+
+.contact form {
+display: flex;
+flex-direction: column;
+}
+
+.contact label {
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+width: 100%;
+box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.contact textarea {
+resize: vertical; /* Allow vertical resizing */
+height: 150px;
+}
+
+.contact button {
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.contact button:hover {
+background-color: #45a049;
+}
