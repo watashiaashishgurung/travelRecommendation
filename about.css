@@ -17,6 +17,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    left: 600px;
 }
 
 nav h1 {
@@ -87,7 +88,7 @@ p {
 
 }
 /* CSS for the intro article */
-#intro {
+#aboutus {
     background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
     padding: 20px;
     margin: 20px;
@@ -95,23 +96,21 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     color: white;
-    width: 400px;
-    height: 200px;
 }
 
-#intro h2 {
+#aboutus h2 {
     margin-top: 0;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
 }
 
-#intro p {
+#aboutus p {
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
 /* CSS for the addition article */
-#addition {
+#ourteam {
     background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
     padding: 20px;
     margin: 20px;
@@ -119,27 +118,25 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     color: rgb(63, 62, 62);
-    width: 600px;
-    height: 200px;
     font-family: 'plex sans', sans-serif;;
 }
 
-#addition h2 {
+#ourteam h2 {
     margin-top: 0;
     font-size: 24px;
     color: #4CAF50;
 }
 
-#addition p {
+#ourteam p {
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
-#addition ul {
+#ourteam ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-#addition ul li {
+#ourteam ul li {
     margin-bottom: 5px;
 }
