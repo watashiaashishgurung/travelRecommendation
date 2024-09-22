@@ -27,6 +27,25 @@ function initiateSearch(query) {
             let found = false;
 
             data.countries.forEach(country => {
+                // Check for country criteria
+                if (query.includes('country') || query.includes('countries')) {
+                    found = true;
+                    const countryCities = country.cities.slice(0, 2); // Get first 2 cities
+                    countryCities.forEach(city => {
+                        const cityDiv = document.createElement('div');
+                        cityDiv.classList.add('city');
+                        cityDiv.innerHTML = `
+                            <h2>${city.name}</h2>
+                            <img src="${city.imageUrl}" alt="${city.name}">
+                            <p>${city.description}</p>
+                        `;
+                        cityDiv.addEventListener('click', function() {
+                            showModal(city);
+                        });
+                        resultsDiv.appendChild(cityDiv);
+                    });
+                }
+
                 country.cities.forEach(city => {
                     if (city.name.toLowerCase().includes(query) || 
                         (query.includes('beach') && city.description.toLowerCase().includes('beach')) || 
