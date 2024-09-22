@@ -50,18 +50,6 @@ nav a:hover {
     color: azure;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS for the search bar */
 .search-bar {
     --pedding: 12px;
@@ -86,7 +74,7 @@ nav a:hover {
     outline: none;
     border: none;
     background-color: transparent;
-    width: 200px;
+    width: 220px;
 }
 
 .search-bar input::placeholder 
@@ -104,6 +92,24 @@ nav a:hover {
 .search-bar button:hover {
     background-color: azure;
 }
+
+#bookNowButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Margin on top */
+}
+
+#bookNowButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+
 
 
 /* CSS for the results container */
@@ -265,4 +271,22 @@ p {
 #addition p {
     line-height: 1.6;
     margin-bottom: 10px;
+}
+#recommandations {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+#recommandations h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #4CAF50;
+    word-wrap: break-word; /* Ensure long words break to fit within the container */
+    text-align: left; /*position the text to the left */
+    padding: 10px; /* Add padding to ensure text doesn't touch the edges */
 }
