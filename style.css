@@ -131,6 +131,17 @@ nav a:hover {
     height: auto;
 }
 
+/* Styles for no results message */
+.no-results {
+    grid-column: 1 / -1; /* Span all columns */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Make it clickable */
+}
+
 /* Modal styles */
 .modal {
     display: none; /* Hidden by default */

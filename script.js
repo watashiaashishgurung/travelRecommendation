@@ -45,7 +45,20 @@ function initiateSearch() {
             });
 
             if (!found) {
-                resultsDiv.innerHTML = 'No results found.';
+                const noResultsDiv = document.createElement('div');
+                noResultsDiv.classList.add('no-results');
+                noResultsDiv.innerHTML = `
+                    Your destination did not reach the most popular 21 holiday destinations of summer 2024.
+                `;
+                resultsDiv.appendChild(noResultsDiv);
+
+                // Add event listener to close the no-results div and reset search when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!noResultsDiv.contains(event.target)) {
+                        resultsDiv.innerHTML = '';
+                        document.getElementById('searchInput').value = '';
+                    }
+                }, { once: true });
             }
 
             // Scroll to the results section
