@@ -106,17 +106,13 @@ nav a:hover {
 }
 
 
-
-
-
 /* CSS for the results container */
-
 #results {
-    margin: 300px;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
     gap: 20px;
-    justify-content: flex-start; /* Align items from the start */
+    justify-content: center; /* Center the grid items */
 }
 
 .city {
@@ -126,7 +122,7 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    width: calc(33.333% - 20px); /* Consistent width for alignment */
+    width: 100%; /* Default width */
     box-sizing: border-box; /* Include padding and border in the width */
 }
 
@@ -152,12 +148,7 @@ nav a:hover {
 }
 
 .modal-content {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.5); /* More transparent background */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -181,6 +172,9 @@ nav a:hover {
     display: block;
     margin: 0 auto;
 }
+
+
+
 
 
 
