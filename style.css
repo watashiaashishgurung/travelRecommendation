@@ -109,40 +109,78 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
 /* CSS for the results container */
 
 #results {
-    margin: 20px;
+    margin: 300px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
-
+    justify-content: flex-start; /* Align items from the start */
 }
 
 .city {
     border: 1px solid #ddd;
     padding: 10px;
-    margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.5); /* More transparent background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: calc(33.333% - 20px); /* Consistent width for alignment */
+    box-sizing: border-box; /* Include padding and border in the width */
 }
-
 
 .city img {
     max-width: 100%;
     height: auto;
 }
 
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    z-index: 1000;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.modal-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5); /* More transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal img {
+    max-width: 100%;
+    max-height: 60vh; /* Ensure the image fits within the modal */
+    display: block;
+    margin: 0 auto;
+}
 
 
 
@@ -175,8 +213,11 @@ p {
 
 #intro h2 {
     margin-top: 0;
-    font-size: 60px;
+    font-size: 20px;
     color: white;
+    word-wrap: break-word; /* Ensure long words break to fit within the container */
+    text-align: center; /* Center the text within the container */
+    padding: 10px; /* Add padding to ensure text doesn't touch the edges */
 }
 
 #intro p {
@@ -187,9 +228,9 @@ p {
 /* CSS for the articles container */
 .articles-container {
     display: flex;
-    flex-direction: column; /* Stack items vertically */    gap: 20px;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px;
     padding: 20px;
-
     align-items: flex-start;
     justify-content: flex-end;
 }
@@ -204,12 +245,16 @@ p {
     color: #333;
     flex: 1; /* Allow articles to grow and shrink equally */
     max-width: 45%; /* Ensure articles don't get too wide */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 #intro h2, #addition h2 {
     margin-top: 0;
     font-size: 24px;
     color: #4CAF50;
+    word-wrap: break-word; /* Ensure long words break to fit within the container */
+    text-align: center; /* Center the text within the container */
+    padding: 10px; /* Add padding to ensure text doesn't touch the edges */
 }
 
 #addition p {
