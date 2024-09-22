@@ -219,3 +219,25 @@ font-size: 16px;
 .contact button:hover {
 background-color: #45a049;
 }
+
+.contact form button:hover {
+    background-color: #45a049;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: skyblue;
+}
+.social-media a {
+    font-size: 300px;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+    color: #4CAF50; /* Change color on hover */
+}
